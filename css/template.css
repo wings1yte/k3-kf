@@ -1,0 +1,372 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	margin: 25px 0px 0px 25px;
+	font-size: 12px;
+	color: #333;
+	background-image: url(../images/back.jpg);
+}
+
+a:link, a:visited {
+	t font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #adb709;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #a8abab;
+}
+
+.main {
+	width: 1000px;
+	background-color: #EAEAEA;
+	height: 100%;
+	margin: 0 auto;	
+}
+
+.fon {
+	
+	background-image: url(../images/border-fon.png);
+	height: 100%;
+	width:1160px;	
+}
+
+.telo {
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: #f7f7ee;
+}
+
+/* Шапка, логотипы */
+.lg {
+	posotion:
+	float: left;
+	margin-left:1135px;
+	margin-top:-20px;
+	position: absolute;
+}
+
+.shapka {
+	background-image: url(../images/verh-fon.jpg);
+	background-repeat: repeat-x;
+	height: 104px;
+	margin-top: 19px;	
+}
+
+.logo {
+	background-image: url(../images/logo.png);
+	height: 141px;
+	width: 226px;
+	float: left;
+	margin-top:-20px;
+	position: absolute;
+}
+
+.gerb {
+	background-image: url(../images/gerb.png);
+	height: 200px;
+	width: 189px;
+	margin-left: -200px;
+	float: left;
+}
+
+/* Кнопки "на главную" "контакты" */
+.home {
+	background-image: url(../images/home-mail.png);
+	float: left;
+	height: 39px;
+	width: 40px;
+	margin-left: -100px;
+}
+
+.home:hover {
+	background-image: url(../images/home-mail.png);
+	float: left;
+	height: 39px;
+	width: 40px;
+	margin-left: -100px;
+	background-position: -79px;
+}
+
+.mail {
+	background-image: url(../images/home-mail.png);
+	float: left;
+	height: 39px;
+	width: 39px;
+	margin-left: -60px;
+	background-position: -40px;
+}
+
+.mail:hover {
+	background-image: url(../images/home-mail.png);
+	float: left;
+	height: 39px;
+	width: 39px;
+	margin-left: -60px;
+	background-position: -119px;
+}
+
+/* Название сайта */
+#nm {
+	position:absolute;	
+	margin-left: 230px;
+}
+
+.namesite {
+	position:absolute;
+	background-image: url(../images/namesite.png);
+	height: 71px;
+	width: 556px;
+	
+}
+
+.namesite:hover {
+	background-image: url(../images/namesite.png);
+	height: 71px;
+	width: 556px;
+	background-position: -571px;
+}
+
+/* Меню сайта */
+.nav {
+	width: 600px;
+	float: left;
+	position:relative;
+	margin-top: 30px;
+	margin-left: 5px;
+}
+
+.o_kafedre {
+	background-image: url(../images/o_kafedre.png);
+	height: 118px;
+	width: 113px;
+	float: left;
+	position: relative;
+}
+.o_kafedre:hover {
+	background-image: url(../images/o_kafedre.png);
+	height: 118px;
+	width: 113px;
+	float: left;
+	position: relative;
+	background-position: -128px;
+}
+
+.abiturientu {
+	background-image: url(../images/abitur.png);
+	float: left;
+	height: 118px;
+	width: 113px;
+	margin-top: 12px;
+}
+.abiturientu:hover {
+	background-image: url(../images/abitur.png);
+	float: left;
+	height: 118px;
+	width: 113px;
+	margin-top: 13px;
+	background-position: -109px;
+}
+
+.studentu {
+	background-image: url(../images/student.png);
+	float: left;
+	height: 118px;
+	width: 116px;
+	margin-top: 4px;
+}
+.studentu:hover {
+	background-image: url(../images/student.png);
+	float: left;
+	height: 118px;
+	width: 116px;
+	margin-top: 5px;
+	background-position: -108px;
+}
+
+.ucheba {
+	background-image: url(../images/ucheba.png);
+	height: 118px;
+	width: 110px;
+	float: left;
+	margin-top: 4px;
+}
+.ucheba:hover {
+	background-image: url(../images/ucheba.png);
+	height: 118px;
+	width: 110px;
+	float: left;
+	margin-top: 6px;
+	background-position: 116px;
+}
+
+.innovacii {
+	background-image: url(../images/innovation.png);
+	height: 118px;
+	width: 110px;
+	margin-top: 4px;
+	float: left;
+}.innovacii:hover {
+	background-image: url(../images/innovation.png);
+	height: 118px;
+	width: 110px;
+	margin-top: 6px;
+	float: left;
+	background-position: 119px;
+}
+
+/* Основное поле */
+.boader {
+	width:900px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 65px;
+	text-align: justify;
+}
+
+
+/* Классы Joomla */
+.contentpaneopen {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+	position: relative;
+	text-align: justify;
+	margin-top: 5px;
+	height: 100%;
+	width: 100%;	
+}
+
+.main_contents {
+	margin-top: 60px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;	
+	position:relative;
+}
+
+ a.contentpaneopen {
+ font-family: Tahoma, Geneva, sans-serif;
+ font-size: 12px;
+ color: #adb709;
+}
+
+a.contentpaneopen:visited {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #adb709;
+}
+
+a.contentpaneopen:hover {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #a8abab;
+}
+
+.contentheading {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 8px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+a.readmore-link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6e7ab4;
+	font-weight: bold;
+}
+
+a.readmore-link:visited {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #6e7ab4;
+	text-decoration:underline;
+}
+
+a.readmore-link:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #d99826;
+	text-decoration:none;
+}
+
+a.comment-link:link {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ color: #6e7ab4; 
+}
+
+a.comment-link:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6e7ab4;
+	text-decoration:underline;
+}
+
+a.comment-link:hover {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ color: color: #d99826;
+ text-decoration:none; 
+}
+
+/* Правый блок */
+.right_contents {
+	background-color: #e8e8d7;
+	width: 200px;
+	padding-top: 35px;
+	text-align: center;
+	vertical-align: top;
+	padding-right: 15px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+#search {
+	margin-top: 7px;
+	margin-left: 14px;
+	position: relative;
+}
+
+#mod_search_searchword {
+	margin-bottom: 10px;
+	position: relative;
+	font-size: 9px;
+	background-color: #fefefd;
+	float: left;
+	width: 120px;
+	margin-top: 20px;
+}
+
+.text-right-contents {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #6c6c53;
+	position: relative;
+	text-align: justify;
+	margin-top: 20px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+/* Нижний блок */
+.footer {
+	background-image: url(../images/foot-fon.jpg);
+	height: 35px;
+	background-repeat: repeat-x;	
+}
+
+.footer-text {
+	text-align: right;
+	font-family: Times New Roman;
+	font-size: 15px;
+	color: #000;
+	padding: 9px;	
+}

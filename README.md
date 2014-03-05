@@ -1,0 +1,1 @@
+Design and nesting of web-site for department of lifting-and-shifting machines from BMSTU (2011)

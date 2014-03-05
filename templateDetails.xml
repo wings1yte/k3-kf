@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>ptm_kafedra</name>
+	<creationDate>7/02/11</creationDate>
+	<author>Wings1yte</author>
+	<authorEmail>wings1yte@list.ru</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright></copyright>
+	<license>Private</license>
+	<version>0.1</version>
+	<description>TPL_PTM_KAFEDRA</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>component.php</filename>
+		<filename>css/index.html</filename>
+		<filename>css/template.css</filename>
+		<filename>images/index.html</filename>
+		<filename>images/back.jpg</filename>
+		<filename>images/foot-fon.jpg</filename>
+		<filename>images/verh-fon.jpg</filename>
+		<filename>images/abitur.png</filename>
+		<filename>images/border-fon.png</filename>
+		<filename>images/gerb.png</filename>
+		<filename>images/holst-truba.png</filename>
+		<filename>images/home-mail.png</filename>
+		<filename>images/innovation.png</filename>
+		<filename>images/left-copy.png</filename>
+		<filename>images/logo.png</filename>
+		<filename>images/menu.png</filename>
+		<filename>images/namesite.png</filename>
+		<filename>images/o_kafedre.png</filename>
+		<filename>images/student.png</filename>
+		<filename>images/ucheba.png</filename>
+	</files>
+	<positions>
+		<position>right</position>
+		<position>search</position>
+	</positions>
+</install>
